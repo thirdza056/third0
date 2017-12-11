@@ -6,7 +6,7 @@ from multiprocessing import Pool
 import time,random,sys,json,codecs,threading,glob,re,datetime,urllib2,pickle,requests
 
 cl = LINETCR.LINE()
-cl.login(token="En56q467O7IPhjbiIaw0.wO8FExqopCH2OtQ39ZGtqa.NkO4R7kcgPX4AcPNkzcEPIQQHIZ0JIx676KqOErmnLU=")
+cl.login(qr=True)
 cl.loginResult()
 
 kk = LINETCR.LINE()
